@@ -35,6 +35,11 @@ nav {
     border-radius: 50%;
     padding: 1rem;
 }
+.facebook {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
 .navbar-toggler {
     background-color: rgba(255,255,255,0.2);
 }
