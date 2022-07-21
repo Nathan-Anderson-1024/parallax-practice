@@ -1,6 +1,21 @@
+body, html {
+    height: 100vh;
+}
 nav {
+    font-family: 'Open Sans', 'Lobster', 'Times New Roman';
+}
+.parallax-1 {
+    min-height: 100vh;
     font-family: 'Lobster', 'Open Sans', 'Times New Roman';
+    background-image: url("../img/parallax_1.jpg");
 }
-.jumbotron {
-    height: 30vh;
+.parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
+.jumbo-container {
+    border: 1px solid red;
+}
+
