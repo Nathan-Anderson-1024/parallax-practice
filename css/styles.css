@@ -1,19 +1,47 @@
 body, html {
     height: 100vh;
+    font-size: 16px;
 }
 nav {
     font-family: 'Open Sans', 'Lobster', 'Times New Roman';
 }
-.parallax-1 {
-    min-height: 100vh;
-    font-family: 'Lobster', 'Open Sans', 'Times New Roman';
-    background-image: url("../img/parallax_1.jpg");
-}
+/* Rule for all parallax containers */
 .parallax {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    min-height: 100vh;
+}
+/* Rule for the jumbotron */
+.parallax-1 {
+    font-family: 'Lobster', 'Open Sans', 'Times New Roman';
+    background-image: url("../img/parallax_1.jpg");
+}
+.parallax-1 h1 {
+    font-size: 5rem;
+    opacity: 0.8;
+}
+/* Rule for second parallax */
+.parallax-2 {
+    background-image: url("../img/parallax_2.jpg");
+}
+/* Parallax 3 */
+.parallax-3 {
+    background-image: url("../img/parallax_3.jpg");
+}
+/* Parallax 4 */
+.parallax-4 {
+    background-image: url("../img/parallax_4.jpg");
+}
+/* Parallax 5 */
+.parallax-5 {
+    background-image: url("../img/parallax_5.jpg");
+}
+/* Parallax 6 */
+.parallax-6 {
+    background-color: red;
+    min-height: 33vh;
 }
 .jumbo-container {
     border: 1px solid red;
