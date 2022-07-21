@@ -19,24 +19,36 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <nav class="navbar navbar-light fixed-top">
+    <nav class="navbar navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Road trip</a>
+        <a class="navbar-brand text-light" href="#">Road trip</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Road trip</h5>
+            <h5 class="offcanvas-title text-dark" id="offcanvasNavbarLabel">Road trip</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-dark" aria-current="page" href="#theTop">The Top</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link text-dark" href="#firstDestination">First Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#secondDestination">Second Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#thirdDestination">Third Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#fourthDestination">Fourth Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#contact-row">Contact</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -47,14 +59,14 @@
         </div>
       </div>
     </nav>
-    <main class="container-fluid jumbo-container mt-5">
-      <div class="row">
+    <main class="container-fluid jumbo-container">
+      <div class="row" id="theTop">
         <div class="col-12 p-5 text-white text-center jumbotron d-flex flex-column justify-content-center align-items-center parallax parallax-1 position-relative">
           <h1>This is Road Trip</h1>
           <div class="position-absolute down-arrow"><i class="fa-solid fa-angle-down p-3"></i></div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="firstDestination">
         <div class="col-12 parallax parallax-2 d-flex text-light justify-content-center align-items-center flex-column position-relative">
           <div class="flex-background text-center text-light w-50 p-5">
             <div class="fw-bold section-headers">NIBH SED FAUCIBUS NIBH LOBORTIS THE MOUSE,</div>
@@ -69,7 +81,7 @@
           <div class="position-absolute down-arrow"><i class="fa-solid fa-angle-down p-3"></i></div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="secondDestination">
         <div class="col-12 parallax parallax-3 d-flex text-light justify-content-center align-items-center flex-column position-relative">
           <div class="flex-background text-center text-light w-50 p-5">
             <div class="fw-bold section-headers">COMPETITION FROM MOUSE ULTRICIES</div>
@@ -85,7 +97,7 @@
         </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="thirdDestination">
         <div class="col-12 parallax parallax-4 d-flex text-light justify-content-center align-items-center flex-column position-relative">
           <div class="flex-background text-center text-light w-50 p-5">
             <div class="fw-bold section-headers">VARIOUS RUNNING FROM BANANAS</div>
@@ -101,7 +113,7 @@
         </div>
       </div>
       </div>
-      <div class="row">
+      <div class="row" id="fourthDestination">
         <div class="col-12 parallax parallax-5 d-flex text-light justify-content-center align-items-center flex-column position-relative">
           <div class="flex-background text-center text-light w-50 p-5">
             <div class="fw-bold section-headers">MOURNING WILL SIT ON MY BED</div>
@@ -117,7 +129,7 @@
         </div>
       </div>
       </div>
-      <div class="row">
+      <div class="row" id="contact-row">
         <div class="col-12 parallax parallax-6 d-flex justify-content-center align-items-center flex-column">
           <div class="fw-bold contact text-light">CONTACT</div>
           <div class="social-container d-flex justify-content-around text-light mt-5">
