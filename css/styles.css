@@ -21,6 +21,19 @@ nav {
 .section-headers {
     font-size: 1.5rem;
 }
+.down-arrow {
+    top: 90%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+.social-container{
+    width: 10%;
+}
+.social-links {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 1rem;
+}
 /* Rule for the jumbotron */
 .parallax-1 {
     font-family: 'Lobster', 'Open Sans', 'Times New Roman';
@@ -30,18 +43,10 @@ nav {
     font-size: 5rem;
     opacity: 0.8;
 }
-.down-arrow {
-    top: 90%;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-}
+
 /* Rule for second parallax */
 .parallax-2 {
     background-image: url("../img/parallax_2.jpg");
-    border: 1px solid white;
-}
-.parallax-test {
-    border: 1px solid red;
 }
 /* Parallax 3 */
 .parallax-3 {
@@ -60,7 +65,10 @@ nav {
     background-color: red;
     min-height: 33vh;
 }
-.jumbo-container {
-    border: 1px solid red;
+/* contact section */
+.contact {
+    font-size: 2rem;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+
 
