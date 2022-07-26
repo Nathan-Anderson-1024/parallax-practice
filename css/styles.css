@@ -85,3 +85,8 @@ nav {
         width: 100vw !important;
     }
 }
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+}  
