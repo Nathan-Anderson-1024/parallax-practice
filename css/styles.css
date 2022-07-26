@@ -1,6 +1,87 @@
-nav {
-    font-family: 'Lobster', 'Open Sans', 'Times New Roman';
+body, html {
+    height: 100vh;
+    font-size: 16px;
 }
-.jumbotron {
-    height: 30vh;
+nav {
+    font-family: 'Open Sans', 'Lobster', 'Times New Roman';
+    opacity: 1;
+    
+}
+/* Rule for all parallax containers */
+.parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.flex-background {
+    background-color: rgba(0,0,0,0.6);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.section-headers {
+    font-size: 1.5rem;
+}
+.down-arrow {
+    top: 90%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+.social-container{
+    width: 10%;
+}
+.social-links {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    padding: 1rem;
+}
+.facebook {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.navbar-toggler {
+    background-color: rgba(255,255,255,0.2);
+}
+/* Rule for the jumbotron */
+.parallax-1 {
+    font-family: 'Lobster', 'Open Sans', 'Times New Roman';
+    background-image: url("../img/parallax_1.jpg");
+}
+.parallax-1 h1 {
+    font-size: 5rem;
+    opacity: 0.8;
+}
+
+/* Rule for second parallax */
+.parallax-2 {
+    background-image: url("../img/parallax_2.jpg");
+}
+/* Parallax 3 */
+.parallax-3 {
+    background-image: url("../img/parallax_3.jpg");
+}
+/* Parallax 4 */
+.parallax-4 {
+    background-image: url("../img/parallax_4.jpg");
+}
+/* Parallax 5 */
+.parallax-5 {
+    background-image: url("../img/parallax_5.jpg");
+}
+/* Parallax 6 */
+.parallax-6 {
+    background-color: red;
+    min-height: 33vh;
+}
+/* contact section */
+.contact {
+    font-size: 2rem;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 809px) {
+    .flex-background {
+        width: 100vw !important;
+    }
 }
