@@ -4,7 +4,7 @@ This repo consists of my finished webpage using parallax. Parallax is disabled f
 
 
 ### Getting started
-Click [**here**](https://nathan-anderson-1024.github.io/parallax-practice/) to see the final webpage in action. 
+Click **[here](https://nathan-anderson-1024.github.io/parallax-practice/)** to see the final webpage in action. 
 
 ### Contributors
 I am the sole contributor.
